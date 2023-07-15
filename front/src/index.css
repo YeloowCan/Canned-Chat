@@ -1,0 +1,33 @@
+.App {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.room {
+  height: 800px;
+  width: 500px;
+  border: 1px solid blue;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+}
+
+.content {
+  flex: 1;
+}
+
+.chatItem {
+  margin-right: 24px;
+  margin-bottom: 12px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.message {
+  background: pink;
+  border-radius: 4px;
+  padding: 2px 12px;
+  margin-right: 12px;
+}
